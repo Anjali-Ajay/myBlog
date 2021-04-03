@@ -1,0 +1,58 @@
+body{
+    text-align: center;
+}
+
+img{
+    border-radius: 50%;
+}
+
+#welcome{
+    color: #FFFFFF;
+    background: linear-gradient(#8ef213 0%, #19e3c5 100%);
+   
+}
+
+.name{
+    text-align : center;
+    font-size: 25px;
+    font-family: cursive;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 17px;
+    
+}
+
+.menu{
+    list-style: none;
+    font-family: sans-serif;
+    position:fixed;
+    top:10px;
+    right: 30px;
+    cursor: pointer;
+}
+
+.link{
+    float: left;
+    color: #fff;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family:'Dancing Script', cursive;
+    font-size: 20px
+}
+
+.link:hover {
+    background-color:dodgerblue;
+    color: black;
+}
